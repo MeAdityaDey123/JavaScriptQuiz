@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.home-page {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.home-page img {
+    width: 17rem;
+}
+
+#title {
+    margin: 1.875rem;
+    font-size: 3rem;
+}
+
+.challenge-accepted-btn {
+    background-color: #F8DC3D;
+    color: #2E2E2C;
+    border: none;
+    padding: 0.625rem 3.125rem;
+    font-size: 1.25rem;
+    border-radius: 0.1875rem;
+}
+
+.challenge-accepted-btn:hover {
+    cursor: pointer;
+}
+
+.questions-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #F8DC3D;
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 3.125rem;
+    z-index: -10;
+}
+
+#info-to-player {
+    font-size: 2.8125rem;
+    text-decoration: underline;
+}
+
+.question {
+    font-size: 1.75rem;
+    font-weight: normal;
+}
+
+.question-1, .question-2, .question-3, .question-4 {
+    margin: 1.875rem 0;
+}
+
+.question-1 input, .question-2 input, .question-3 input, .question-4 input {
+    margin: 0.875rem 0;
+}
+
+label {
+    font-size: 1.325rem;
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 0.625rem 3.125rem;
+    font-size: 1.25rem;
+    border-radius: 0.1875rem;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.result-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -20;
+}
+
+.result-page h1 {
+    font-weight: 400;
+    font-size: 1.95rem;
+    word-spacing: 0.234rem;
+}
+
+.percent {
+    font-size: 5.125rem;
+}
